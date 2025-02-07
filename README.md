@@ -15,3 +15,8 @@ Hlavní menu obsahuje odkazy na homepage (seznam generací) a další funkce apl
 
 ## Wireframe
 ![page not found](wireframe.jpg)
+
+
+## DB schéma
+
+![page not found](ClassDiagram.jpg)
