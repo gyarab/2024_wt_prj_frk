@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import GPU
 
-# Register your models here.
+class GPUAdmin(admin.ModelAdmin):
+    list_display = ["name", "generation", "Vram_amount", "release_date", "price"]
+
+admin.site.register(GPU, GPUAdmin)
